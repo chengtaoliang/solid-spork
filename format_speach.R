@@ -1,12 +1,9 @@
-# read in patient id
-patient<-read.delim("PatientIDs.txt", sep='\t', heade=TRUE)
-# fill in data
-
 # read in SW and WS word 
-swws<-read.delim("/Users/zacc/USyd/Kirrie-Cheng-Ramon/word_SW.WS.txt",sep='\t', header=FALSE)
+swws<-read.delim("/Users/cheng/Desktop/word_SW.WS.txt",sep='\t', header=FALSE)
+#- this should be changed to swss=slot 1 etc
 
 # setwd to .textgri file locations
-setwd("/Users/zacc/USyd/Kirrie-Cheng-Ramon/Textgrids_PSWLongitudinalStudy/PNFA Textgrids")
+setwd("/Users/cheng/Desktop")
 
 # Read in data (CX_report.txt) and create useable data.frames
 path = getwd()
@@ -96,3 +93,4 @@ write.table(results, file="Group_Results_PVI&WordDuration_Medians.txt", sep='\t'
 # perform fill on patient
 # can we match capitals?
   
+
