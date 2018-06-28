@@ -1,0 +1,12 @@
+ban	banana	WS
+bic	bicycle	SW
+car	cardigan	SW
+com	computer	WS
+pag	pagoda	WS
+pot	potato	WS
+tom	tomato	WS
+din	dinosaur	SW
+mot	motorbike	SW
+bar	barbecue	SW
+pyj	pyjamas	WS
+zuc	zucchini	WS
